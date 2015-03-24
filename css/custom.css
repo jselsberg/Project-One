@@ -55,3 +55,9 @@ img{
 .imageHolder:hover .caption{
 	opacity: 0.25;
 }
+
+.social{
+	height: 50px;
+	width: 50px;
+	left:50%;
+}
