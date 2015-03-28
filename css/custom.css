@@ -14,15 +14,41 @@ body{
   margin-left: auto;
  }
 
-div.thumbnail{
+.thumbnail{
  	display: block;
  	padding: 4px;
  	margin-bottom: 20px;
  	border-radius: 1px;
  	transition: all .2s ease-in-out;
+ 	height: 300px;
+ 	width: 350px;
  }
 
- img.modalimg:hover{
+ .thumbnailvegas{
+ 	display: block;
+ 	padding: 4px;
+ 	margin-bottom: 20px;
+ 	border-radius: 1px;
+ 	transition: all .2s ease-in-out;
+ 	height: 350px;
+ 	width: 100%;
+ }
+
+ .thumbnailscot{
+ 	display: block;
+ 	padding: 4px;
+ 	margin-bottom: 20px;
+ 	border-radius: 1px;
+ 	transition: all .2s ease-in-out;
+ 	height: 350px;
+ 	width: 100%;
+
+.modalimg{
+	height: 100%;
+	width: 100%;
+}
+
+ .thumbnail:hover{
  	border: 2px solid #000000;
  	padding: 1px;
  }
