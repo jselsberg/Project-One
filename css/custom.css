@@ -7,6 +7,25 @@ body{
 	display: block;
 }
 
+img{
+ 	vertical-align: middle;
+ 	border: 0px;
+ 	position: relative;	
+ }
+
+h1{
+	font-family: 'FranklinGothic';
+}
+
+li{
+	font-family: 'FranklinGothic';
+}
+
+a.navbar-brand{
+	font-family: cursive;
+}
+
+
 .container-fluid {
   padding-right: 15px;
   padding-left: 15px;
@@ -14,50 +33,10 @@ body{
   margin-left: auto;
  }
 
-.thumbnail{
- 	display: block;
- 	padding: 4px;
- 	margin-bottom: 20px;
- 	border-radius: 1px;
- 	transition: all .2s ease-in-out;
- 	height: 300px;
- 	width: 350px;
- }
-
- .thumbnailvegas{
- 	display: block;
- 	padding: 4px;
- 	margin-bottom: 20px;
- 	border-radius: 1px;
- 	transition: all .2s ease-in-out;
- 	height: 350px;
- 	width: 100%;
- }
-
- .thumbnailscot{
- 	display: block;
- 	padding: 4px;
- 	margin-bottom: 20px;
- 	border-radius: 1px;
- 	transition: all .2s ease-in-out;
- 	height: 350px;
- 	width: 100%;
-
-.modalimg{
-	height: 100%;
-	width: 100%;
+.caption{
+	font-size: 1000%;
+	font-family: cursive;
 }
-
- .thumbnail:hover{
- 	border: 2px solid #000000;
- 	padding: 1px;
- }
-
-img{
- 	vertical-align: middle;
- 	border: 0px;
- 	position: relative;	
- }
 
 .imageHolder{
 	position: relative;
@@ -75,12 +54,75 @@ img{
 	color: white;
 	background: black;
 	text-align: center;
-	font-size: xx-large;
 }
 
 .imageHolder:hover .caption{
-	opacity: 0.25;
+	opacity: .5;
+	color: white;
 }
+
+.thumbnail{
+ 	display: block;
+ 	padding: 4px;
+ 	margin-bottom: 20px;
+ 	border-radius: 1px;
+ 	transition: all .2s ease-in-out;
+ 	height: 300px;
+ 	width: 350px;
+ }
+
+ .thumbnail:hover{
+ 	display: block;
+ 	padding: 4px;
+ 	margin-bottom: 20px;
+ 	border-radius: 1px;
+ 	transition: all .2s ease-in-out;
+ 	height: 300px;
+ 	width: 350px;
+ 	border-color: green;
+ }
+
+ .thumbnailvegas1{
+ 	display: block;
+ 	padding: 4px;
+ 	margin-bottom: 20px;
+ 	border-radius: 1px;
+ 	transition: all .2s ease-in-out;
+ 	height: 350px;
+ 	width: 100%;
+ 	border-color: green;
+ }
+
+  .thumbnailvegas2{
+ 	display: block;
+ 	padding: 4px;
+ 	margin-bottom: 20px;
+ 	border-radius: 1px;
+ 	transition: all .2s ease-in-out;
+ 	height: 350px;
+ 	width: 350px;
+  	border-color: green;
+ }
+
+ .thumbnailscot{
+ 	display: block;
+ 	padding: 4px;
+ 	margin-bottom: 20px;
+ 	border-radius: 1px;
+ 	transition: all .2s ease-in-out;
+ 	height: 350px;
+ 	width: 100%;
+}
+
+img.modalimg{
+	height: 100%;
+	width: 100%;
+}
+
+ img:hover{
+ 	border: 2px solid #000000;
+ 	padding: 1px;
+ }
 
 .social{
 	height: 50px;
