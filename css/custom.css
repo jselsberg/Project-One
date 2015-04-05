@@ -5,7 +5,32 @@ body{
 		margin-left: 0px;
 		margin-bottom: 0px;
 	display: block;
+	background-color: black;
 }
+
+
+a.navbar-brand{
+	font-family: cursive;
+	background-color: black;
+}
+
+.navbar-brand:hover{
+	color: red;
+}
+
+ul.dropdown-menu{
+	background-color: #47D1FF;
+}
+
+ul.dropdown-menu a:hover{
+	background-color: #ADEBFF;
+}
+
+
+a.dropdown-toggle:hover{
+	color: #ADEBFF;
+}
+
 
 img{
  	vertical-align: middle;
@@ -15,16 +40,25 @@ img{
 
 h1{
 	font-family: 'FranklinGothic';
+	color: #757575;
+	text-align: center;
 }
+
+h4{
+	font-family: 'FranklinGothic';
+	color: #757575;
+	text-align: center;
+}
+
+p{
+	color: #757575;
+	padding-left: 10%;
+}
+
 
 li{
 	font-family: 'FranklinGothic';
 }
-
-a.navbar-brand{
-	font-family: cursive;
-}
-
 
 .container-fluid {
   padding-right: 15px;
@@ -63,6 +97,7 @@ a.navbar-brand{
 
 .thumbnail{
  	display: block;
+ 	background-color: black;
  	padding: 4px;
  	margin-bottom: 20px;
  	border-radius: 1px;
@@ -84,6 +119,7 @@ a.navbar-brand{
 
  .thumbnailvegas1{
  	display: block;
+ 	background-color: black;
  	padding: 4px;
  	margin-bottom: 20px;
  	border-radius: 1px;
@@ -93,8 +129,9 @@ a.navbar-brand{
  	border-color: green;
  }
 
-  .thumbnailvegas2{
- 	display: block;
+ .thumbnailvegas2{
+  	display: block;
+ 	background-color: black;
  	padding: 4px;
  	margin-bottom: 20px;
  	border-radius: 1px;
@@ -106,8 +143,9 @@ a.navbar-brand{
 
  .thumbnailscot{
  	display: block;
- 	padding: 4px;
- 	margin-bottom: 20px;
+ 	background-color: black;
+ 	padding: 2px;
+ 	margin-bottom: 10px;
  	border-radius: 1px;
  	transition: all .2s ease-in-out;
  	height: 350px;
@@ -124,8 +162,14 @@ img.modalimg{
  	padding: 1px;
  }
 
+.biopic{
+	height: 250px;
+	width: 150px;
+	left: 40%;
+}
+
 .social{
 	height: 50px;
 	width: 50px;
-	left:50%;
+	left:40%;
 }
