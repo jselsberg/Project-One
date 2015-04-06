@@ -14,7 +14,7 @@
     <script src="config.json.js"></script>
 </head>
 
-<body>
+<body class="contact">
 <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
@@ -46,42 +46,58 @@
   </div><!-- /.container-fluid -->
 </nav>
 
-<h1>Contact Me</h1>
-<p>I would love to hear from you!</p>
-
-<form action="action_page.php">
+<br><br>
+<h1>Contact</h1>
+<p class="welcome">I welcome all comments, inquiries, and feedback.</p>
+<br>
+<div class="row">
+  <div class="col-xs-12 col-sm-4 col-md-4">
+    <h4>Gallery Information</h4>
+    <p>6132 Waterman Blvd
+    <br>St. Louis, MO 63112
+    <br><br>Email
+    <br>jaredselsberg@gmail.com
+    <br><br>Phone
+    <br>832-8677905</p>
+    <br><br><br>
+    <p><a class="review" href="https://jaredselsberg.wufoo.com/forms/leave-a-review/">Leave a review here</a></p>
+  </div>
+  <div class="col-xs-12 col-sm-4 col-md-4">
+  <form action="action_page.php">
   <fieldset>
-  <legend><h4>Get in touch!</h4></legend>
+  <legend><h4>Get In Touch</h4></legend>
   First name:<br>
   <input type="text" name="firstname">
-    <br>
+    <br><br>
   Last name:<br>
   <input type="text" name="lastname">
-    <br>
+    <br><br>
   E-mail address:<br>
   <input type="text" name="email">
-    <br>
+    <br><br>
   Phone number:<br>
   <input type="text" name="phone">
-    <br>
-  <p>Service:</p>
-  <input type="radio" name="Event" value="male" checked>  Event
+    <br><br><br>
+  </div>
+  <div class="col-xs-12 col-sm-4 col-md-4">
+  <h4>Service:</h4><div class="service">
+  <input type="radio" name="Event" value="male"> Event
     <br>
   <input type="radio" name="Portrait" value="female"> Portrait
     <br>
-  <input type="radio" name="Landscape" value="female">  Landscape Photo
+  <input type="radio" name="Landscape" value="female"> Landscape Photo
     <br>
-  <input type="radio" name="Other" value="female">  Other
-    <br>
+  <input type="radio" name="Other" value="female"> Other
+    <br><br>
   Message:<br>
   <input type="text" name="message">
     <br><br>
   <input type="submit" value="Submit">
+  </div>
+  </div>
+</div>
 </fieldset>
 </form>
-
-<br>
-  <p><a href="https://jaredselsberg.wufoo.com/forms/leave-a-review/">Leave a review here</a><p>
 
 
 </body>

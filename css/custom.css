@@ -8,15 +8,19 @@ body{
 	background-color: black;
 }
 
-
-a.navbar-brand{
+.navbar-brand:link{
 	font-family: cursive;
 	background-color: black;
+}
+
+.navbar-brand:visited{
+	color: blue;
 }
 
 .navbar-brand:hover{
 	color: red;
 }
+
 
 ul.dropdown-menu{
 	background-color: #47D1FF;
@@ -26,11 +30,9 @@ ul.dropdown-menu a:hover{
 	background-color: #ADEBFF;
 }
 
-
 a.dropdown-toggle:hover{
 	color: #ADEBFF;
 }
-
 
 img{
  	vertical-align: middle;
@@ -40,7 +42,7 @@ img{
 
 h1{
 	font-family: 'FranklinGothic';
-	color: #757575;
+	color: #A1AC88;
 	text-align: center;
 }
 
@@ -114,7 +116,7 @@ li{
  	transition: all .2s ease-in-out;
  	height: 300px;
  	width: 350px;
- 	border-color: green;
+ 	border-color: #464D70;
  }
 
  .thumbnailvegas1{
@@ -126,7 +128,7 @@ li{
  	transition: all .2s ease-in-out;
  	height: 350px;
  	width: 100%;
- 	border-color: green;
+ 	border-color: #A1AC88;
  }
 
  .thumbnailvegas2{
@@ -138,7 +140,7 @@ li{
  	transition: all .2s ease-in-out;
  	height: 350px;
  	width: 350px;
-  	border-color: green;
+  	border-color: #A1AC88;
  }
 
  .thumbnailscot{
@@ -150,6 +152,7 @@ li{
  	transition: all .2s ease-in-out;
  	height: 350px;
  	width: 100%;
+ 	border-color: #A1AC88;
 }
 
 img.modalimg{
@@ -157,19 +160,64 @@ img.modalimg{
 	width: 100%;
 }
 
- img:hover{
- 	border: 2px solid #000000;
+.modal-header{
+	background-color: black;
+}
+
+.modal-backdrop{
+	background-color: #464D70;
+}
+
+
+img:hover{
+ 	border: 2px solid #A1AC88;
  	padding: 1px;
  }
 
 .biopic{
 	height: 250px;
 	width: 150px;
-	left: 40%;
+	left: 43%;
+	border: 5px groove #A1AC88;
+}
+
+p.bio{
+	border: 5px double #464D70;
+	color: 757575;
+	border-spacing: 10px;
+	font-family: 'Helvetica';
+	font-size: 1.5em;
+	font-weight: 200;
 }
 
 .social{
 	height: 50px;
 	width: 50px;
 	left:40%;
+}
+
+form{
+	color: #757575;
+	padding-left: 10%;
+}
+
+.contact h4{
+	color: #47D1FF;
+}
+
+a.review{
+	font-size: x-large;
+	font-family: 'FranklinGothic';
+}
+
+.contact a:hover{
+	color: #A1AC88;
+}
+
+.contact .welcome{
+	text-align: center;
+}
+
+.service{
+	color: #757575;
 }
