@@ -11,27 +11,39 @@ body{
 .navbar-brand:link{
 	font-family: cursive;
 	background-color: black;
+	color: #47D1FF;
 }
 
 .navbar-brand:visited{
-	color: blue;
+	font-family: cursive;
+	background-color: black;
+	color: #47D1FF;
 }
 
 .navbar-brand:hover{
-	color: red;
+	color: #FE4365;
+	background-color: black;
 }
 
+.navbar-brand:visited:hover{
+	color: #FE4365;
+	background-color: black;
+
+}
 
 ul.dropdown-menu{
-	background-color: #47D1FF;
+	background-color: black;
+	color: #B2B2B2;
+}
+
+ul.dropdown-menu a:visited{
+	background-color: black;
+	color: #B2B2B2;
 }
 
 ul.dropdown-menu a:hover{
-	background-color: #ADEBFF;
-}
-
-a.dropdown-toggle:hover{
-	color: #ADEBFF;
+	color: #47D1FF;
+	background-color:black;
 }
 
 img{
@@ -56,7 +68,6 @@ p{
 	color: #757575;
 	padding-left: 10%;
 }
-
 
 li{
 	font-family: 'FranklinGothic';
@@ -168,7 +179,6 @@ img.modalimg{
 	background-color: #464D70;
 }
 
-
 img:hover{
  	border: 2px solid #A1AC88;
  	padding: 1px;
@@ -183,7 +193,7 @@ img:hover{
 
 p.bio{
 	border: 5px double #464D70;
-	color: 757575;
+	color: #757575;
 	border-spacing: 10px;
 	font-family: 'Helvetica';
 	font-size: 1.5em;
