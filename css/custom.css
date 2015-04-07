@@ -9,13 +9,13 @@ body{
 }
 
 .navbar-brand:link{
-	font-family: cursive;
+	font-family: cursive, 'FranklinGothic';
 	background-color: black;
 	color: #47D1FF;
 }
 
 .navbar-brand:visited{
-	font-family: cursive;
+	font-family: cursive, 'FranklinGothic';
 	background-color: black;
 	color: #47D1FF;
 }
@@ -82,7 +82,7 @@ li{
 
 .caption{
 	font-size: 1000%;
-	font-family: cursive;
+	font-family: cursive, 'FranklinGothic';
 }
 
 .imageHolder{
